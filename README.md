@@ -30,11 +30,11 @@ WeiboSDKDemo 中引用了 WeiboSDK，我们在自己的实际项目中引用 Wei
 
 官方项目导入到 Android Studio 后，WeiboSDK 没什么问题，问题主要出现在 WeiboSDKDemo，具体如下：
 
-- jniLibs
+### jniLibs
 
 需要在src\main目录下创建jniLibs目录，并将原 WeiboSDKDemo 中 libs 目录下三个文件夹及其中 so 文件拷贝至 src\main\jniLibs
 
-- 图片资源报错
+### 图片资源报错
 
 编译时，会有一个 png、三个 .9.png 报错。
 
@@ -42,13 +42,13 @@ WeiboSDKDemo 中引用了 WeiboSDK，我们在自己的实际项目中引用 Wei
 
 三个.9.png：在 Android Studio 直接打开，然后重新处理一下。（.9.png的知识如果不清楚请 Google 一下）
 
-- 编译错误 com.android.dex.DexException: Multiple dex files define
+### 编译错误 com.android.dex.DexException: Multiple dex files define
 
 Windows：用 Winrar 等压缩工具直接打开 weibosdkcore.jar，找到 com/sina/weibo/sdk/BuildConfig 并将其删除。
 
 Mac OS：据 Issues里说用 Mac 自带的解压、压缩工具会有问题，请自己尝试。
 
-- debug.keystore
+### debug.keystore
 
 如果不设置 debug.keystore，Demo App 可以成功运行，但是不能授权、分享，会有 sso package error 的报错。
 
