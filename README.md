@@ -17,6 +17,10 @@
 
 请根据自己的开发环境修改 build.gradle 的配置。
 
+## 使用说明
+
+其实没什么好说的，直接拿来导入到 Android Studio 里用就行了，主要是根据 Demo 参考一下 SDK 的用法。
+
 ## Project 说明
 
 官方项目中有两个 Project：
@@ -40,7 +44,7 @@ WeiboSDKDemo 中引用了 WeiboSDK，我们在自己的实际项目中引用 Wei
 
 一个png：修改后缀为 jpg 后，用 PhotoShop 将背景处理为透明再保存为 png 格式。
 
-三个.9.png：在 Android Studio 直接打开，然后重新处理一下。（.9.png的知识如果不清楚请 Google 一下）
+三个.9.png：在 Android Studio 直接打开，然后重新处理一下。（.9.png制作请 Google）
 
 ### 编译错误 com.android.dex.DexException: Multiple dex files define
 
