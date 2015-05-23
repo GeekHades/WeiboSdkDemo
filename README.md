@@ -72,9 +72,9 @@ Mac OS：据 Issues里说用 Mac 自带的解压、压缩工具会有问题，�
 
 ## Thanks
 
--[weibo_android_sdk](https://github.com/sinaweibosdk/weibo_android_sdk)
+- [weibo_android_sdk](https://github.com/sinaweibosdk/weibo_android_sdk)
 
--[Issues45](https://github.com/sinaweibosdk/weibo_android_sdk/issues/45)
+- [Issues45](https://github.com/sinaweibosdk/weibo_android_sdk/issues/45)
 
--[Issues58](https://github.com/sinaweibosdk/weibo_android_sdk/issues/58)
+- [Issues58](https://github.com/sinaweibosdk/weibo_android_sdk/issues/58)
 
